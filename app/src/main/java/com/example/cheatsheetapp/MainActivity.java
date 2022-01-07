@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnOkClick(View view) {
         tvTitle.append("\n Button clicked.");
+        Toast.makeText(getApplicationContext(), "Nice!", Toast.LENGTH_LONG).show();
+
 
     }
 
